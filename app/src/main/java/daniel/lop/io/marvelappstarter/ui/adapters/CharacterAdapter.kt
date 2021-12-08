@@ -75,4 +75,9 @@ class CharacterAdapter: RecyclerView.Adapter<CharacterAdapter.CharacterViewHolde
         onItemClickListener = listener
     }
 
+    fun getCharacterPosition(position: Int ): CharacterModel {
+        return characters[position]
+
+    }
+
 }
