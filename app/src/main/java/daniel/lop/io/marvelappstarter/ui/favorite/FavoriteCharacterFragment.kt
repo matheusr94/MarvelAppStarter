@@ -20,7 +20,6 @@ import daniel.lop.io.marvelappstarter.util.hide
 import daniel.lop.io.marvelappstarter.util.show
 import daniel.lop.io.marvelappstarter.util.toast
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
